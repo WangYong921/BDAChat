@@ -3,9 +3,9 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "teochat"
+name = "bdachat"
 version = "1.0.0"
-description = "TEOChat: A Large Vision-Language Assistant for Temporal Earth Observation Data"
+description = "BDAagent: Integrating Segmentation and Vision-Language Model for Automated and Interpretable Building Damage Assessment"
 readme = "README.md"
 requires-python = ">=3.9"
 classifiers = [
@@ -25,8 +25,8 @@ dependencies = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/ermongroup/TEOChat"
-"Bug Tracker" = "https://github.com/ermongroup/TEOChat/issues"
+"Homepage" = "https://github.com/WangYong921/BDAagent"
+"Bug Tracker" = "https://github.com/WangYong921/BDAagent/issues"
 
 [tool.setuptools.packages.find]
 exclude = ["assets*", "scripts*", "static*"]
