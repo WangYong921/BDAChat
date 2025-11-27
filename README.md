@@ -1,11 +1,11 @@
-# BDAChat: Integrating Segmentation and Vision-Language Model for Automated and Interpretable Building Damage Assessment
+# Integrating Segmentation and Vision-Language Model for Automated and Interpretable Building Damage Assessment
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![GitHub Stars](https://img.shields.io/github/stars/WangYong921/BDAChat?style=social)](https://github.com/WangYong921/BDAChat)
 
-This repository contains the official implementation of the paper: **"BDAChat: Integrating segmentation and vision-language model for automated and interpretable building damage assessment from satellite imagery"**.
+This repository contains the official implementation of the paper: **"Integrating segmentation and vision-language model for automated and interpretable building damage assessment from satellite imagery"**.
 
-**BDAChat** is a novel three-stage framework that integrates instance segmentation with a temporal vision-language model (VLM) for automated, object-level, and interpretable assessment of structural assets from satellite imagery.
+**This work** is a novel three-stage framework that integrates instance segmentation with a temporal vision-language model (VLM) for automated, object-level, and interpretable assessment of structural assets from satellite imagery.
 
 ## 😮 Highlights
 
@@ -182,7 +182,7 @@ If you find our work useful in your research, please consider citing:
 
 ```Bibtex
 @article{wang2025BDAChat,
-  title={BDAChat: Integrating segmentation and vision-language model for automated and interpretable building damage assessment from satellite imagery},
+  title={Integrating segmentation and vision-language model for automated and interpretable building damage assessment from satellite imagery},
   author={Wang, Yong and Cui, Jiawei and Zhai, Changhai and Tao, Xigui and Li, Yuhao},
   journal={},
   year={}
