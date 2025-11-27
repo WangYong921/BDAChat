@@ -1,11 +1,11 @@
-# BDAagent: Integrating Segmentation and Vision-Language Model for Automated and Interpretable Building Damage Assessment
+# BDAChat: Integrating Segmentation and Vision-Language Model for Automated and Interpretable Building Damage Assessment
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![GitHub Stars](https://img.shields.io/github/stars/WangYong921/BDAChat?style=social)](https://github.com/WangYong921/BDAChat)
 
 This repository contains the official implementation of the paper: **"BDAagent: Integrating segmentation and vision-language model for automated and interpretable building damage assessment from satellite imagery"**.
 
-**BDAagent** is a novel three-stage framework that integrates instance segmentation with a temporal vision-language model (VLM) for automated, object-level, and interpretable assessment of structural assets from satellite imagery.
+**BDAChat** is a novel three-stage framework that integrates instance segmentation with a temporal vision-language model (VLM) for automated, object-level, and interpretable assessment of structural assets from satellite imagery.
 
 ## 😮 Highlights
 
