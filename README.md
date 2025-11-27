@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![GitHub Stars](https://img.shields.io/github/stars/WangYong921/BDAChat?style=social)](https://github.com/WangYong921/BDAChat)
 
-This repository contains the official implementation of the paper: **"BDAagent: Integrating segmentation and vision-language model for automated and interpretable building damage assessment from satellite imagery"**.
+This repository contains the official implementation of the paper: **"BDAChat: Integrating segmentation and vision-language model for automated and interpretable building damage assessment from satellite imagery"**.
 
 **BDAChat** is a novel three-stage framework that integrates instance segmentation with a temporal vision-language model (VLM) for automated, object-level, and interpretable assessment of structural assets from satellite imagery.
 
@@ -155,7 +155,7 @@ python damage-aware_heatmap.py
 
 ## 📂 File Structure
 ```text
-BDAagent/
+BDAChat/
 ├── BDAChat/                   # Code for the VLM (Stage 3)
 ├── Modified_SAM/              # Code for Segmentation (Stage 1)
 ├── assets/                    
@@ -181,8 +181,8 @@ This work heavily relies on the contributions of the following excellent open-so
 If you find our work useful in your research, please consider citing:
 
 ```Bibtex
-@article{wang2025BDAagent,
-  title={BDAagent: Integrating segmentation and vision-language model for automated and interpretable building damage assessment from satellite imagery},
+@article{wang2025BDAChat,
+  title={BDAChat: Integrating segmentation and vision-language model for automated and interpretable building damage assessment from satellite imagery},
   author={Wang, Yong and Cui, Jiawei and Zhai, Changhai and Tao, Xigui and Li, Yuhao},
   journal={},
   year={}
