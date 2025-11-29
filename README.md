@@ -109,7 +109,7 @@ python sgts.py
 #### Training BDAChat
 To fine-tune the model on the OLBDA dataset:
 ```bash
-sh scripts/train_bdachat.sh
+sh BDAChat/scripts/train_bdachat.sh
 ```
 **Note:** Set --pretrain_mm_mlp_adapter to the path of the `mm_projector.bin` file you downloaded.
 **Output:** Checkpoints will be saved to the directory specified in --output_dir.
@@ -117,7 +117,7 @@ sh scripts/train_bdachat.sh
 #### Merging LoRA Weights
 After training, merge the LoRA weights with the base model for inference:
 ```bash
-python scripts/merge_lora_weights.py \
+python BDAChat/scripts/merge_lora_weights.py \
     --model-path /path/to/output/video-llava-7b-8bit-lora-experiment\
     --model-base /path/to/Video-LLaVA-7B \
     --save-model-path /path/to/checkpoints/bdachat-7B
@@ -125,7 +125,7 @@ python scripts/merge_lora_weights.py \
 #### Evaluation
 To validate BDAChat on the test set or new data:
 ```bash
-sh scripts/eval_bdachat.sh olbda_qa \
+sh BDAChat/scripts/eval_bdachat.sh olbda_qa \
     /path/to/checkpoints/BDAChat-7B \
     /path/to/data/eval
 ```
