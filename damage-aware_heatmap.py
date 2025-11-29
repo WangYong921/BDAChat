@@ -44,7 +44,6 @@ def generate_heatmap_overlay_from_contours(
     for i, contour in enumerate(contours):
         damage_level = damage_dict.get(i, "no-damage")
 
-        # 设置热力图强度
         if damage_level == "destroyed":
             intensity = 1.0
         elif damage_level == "major-damage":
@@ -54,7 +53,6 @@ def generate_heatmap_overlay_from_contours(
         else:
             continue
 
-        # 计算扩展后的边界框
         x, y, w_box, h_box = cv2.boundingRect(contour)
         pad_x = int(w_box * expand_ratio)
         pad_y = int(h_box * expand_ratio)
@@ -86,7 +84,7 @@ for block_id in range(1, 100):#number of block
     mask_path = rf"\path\to\block\masks\block_{block_id}_pre_disaster.png"
     output_dir = rf"\path\to\output_name\output{block_id}"
     output_path = os.path.join(output_dir, "heatmap_overlay.png")
-    json_response_path = rf"teochat-7B40_prompt_strategy_interleave_chronological_prefix_True{block_id}.json"
+    json_response_path = rf"bdachat-7B_prompt_strategy_interleave_chronological_prefix_True{block_id}.json"
 
     print(f"\n{'='*50}")
     print(f"[INFO] start block_{block_id}")

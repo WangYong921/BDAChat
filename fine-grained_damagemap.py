@@ -25,7 +25,7 @@ def visualize_damage_on_image(
         if valid_count < len(responses):
             damage_label = responses[valid_count]["response"]
         else:
-            damage_label = "No damage"  # 默认值
+            damage_label = "No damage"  
 
 
         if damage_label == "Destroyed":
@@ -49,7 +49,6 @@ def visualize_damage_on_image(
 
         valid_count += 1
 
-    # 保存结果
     cv2.imwrite(output_mask_path, label_map)
     print(f"[INFO] Has saved the annotated image to {output_mask_path}，with a total of{valid_count}buildings")
 

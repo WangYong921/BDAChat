@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "bdachat"
 version = "1.0.0"
-description = "BDAagent: Integrating Segmentation and Vision-Language Model for Automated and Interpretable Building Damage Assessment"
+description = "Integrating Segmentation and Vision-Language Model for Automated and Interpretable Building Damage Assessment"
 readme = "README.md"
 requires-python = ">=3.9"
 classifiers = [
@@ -25,8 +25,8 @@ dependencies = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/WangYong921/BDAagent"
-"Bug Tracker" = "https://github.com/WangYong921/BDAagent/issues"
+"Homepage" = "https://github.com/WangYong921/BDAChat"
+"Bug Tracker" = "https://github.com/WangYong921/BDAChat/issues"
 
 [tool.setuptools.packages.find]
 exclude = ["assets*", "scripts*", "static*"]
