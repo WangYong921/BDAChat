@@ -35,7 +35,6 @@ def extract_buildings_pre_post(
         else:
             x, y, w, h = cv2.boundingRect(contour)
 
-        # 延申 bbox
         pad_w = int(w * expand_ratio)
         pad_h = int(h * expand_ratio)
         x1 = max(0, x - pad_w)
