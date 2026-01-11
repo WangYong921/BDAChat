@@ -178,14 +178,14 @@ This work heavily relies on the contributions of the following excellent open-so
     *   **TEOChat:** For inspiration on handling temporal visual sequences in VLM context. [[GitHub](https://github.com/ermongroup/TEOChat)]
 
 ## ✏️ Citation
-If you find our work useful in your research, please consider citing:
+If you find our work useful in your research, please consider citing: Wang, Y., Cui, J., Zhai, C., et al. (2026). Integrating segmentation and vision-language model for automated and interpretable building damage assessment from satellite imagery. Advanced Engineering Informatics, 71, 104320.
 
 ```Bibtex
 @article{wang2025BDAChat,
   title={Integrating segmentation and vision-language model for automated and interpretable building damage assessment from satellite imagery},
   author={Wang, Yong and Cui, Jiawei and Zhai, Changhai and Tao, Xigui and Li, Yuhao},
-  journal={},
-  year={}
+  journal={Advanced Engineering Informatics},
+  year={2026}
 }
 ```
 ## 📜 License
